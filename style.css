@@ -1,0 +1,89 @@
+body{
+background-color:rgb(245,245,245);
+color:rgb(30,50,50);
+font-family: 'Josefin Sans', sans-serif;
+
+font-size:25px;
+line-height: 1;
+letter-spacing: 1px;
+font-weight: 250;
+}
+h1,h2,h3{
+	font-family: 'Ubuntu', sans-serif;
+	color:#839788;
+	font-weight: ;
+}
+h1{
+	font-weight: 900;
+
+}
+
+
+
+
+//custom design with class
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+@media(max-width:560px){
+	.container{
+		width:400px;
+		margin: 20px;
+	}
+}
+.card-white{
+	background:ghostwhite;
+	box-shadow:10px 20px 30px rgb(0,0,0,.3);
+	padding:30px;
+	margin: 40px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+
+}
+@media(max-width:560px){
+	.img-circle{
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+	}
+}
+.button-peach{
+	text-decoration: none;
+	font-weight: 300px;
+ 	color: darkred;
+ 	font-weight: bold;
+ 	background-color: peachpuff ;
+ 	border-radius: 5px;
+ 	padding: 5px;
+}
+.button-peach:hover{
+	color:black;
+	font-weight: bolder;
+}
+.list-inline{
+
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline-grid;
+	padding: 10px;
+}
+.list-inline li i{
+
+	font-size: 50px;
+	text-decoration: none;
+	color: darkred;
+}
+.list-inline li i:hover{
+	color:black;
+}
+
